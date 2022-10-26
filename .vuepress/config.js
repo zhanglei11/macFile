@@ -71,7 +71,7 @@ module.exports = {
     ],
     logo: '/logo.png',
     // 搜索设置
-    search: false,
+    search: false
     // searchMaxSuggestions: 10,
 
     // 自动形成侧边导航
@@ -81,7 +81,7 @@ module.exports = {
     // lastUpdated: 'Last Updated',
 
     // 作者
-    // author: 'reco_luan',
+    // author: 'zhanglei',
 
     // 作者头像
     // authorAvatar: '/avatar.png',
