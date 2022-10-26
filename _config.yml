@@ -1,0 +1,4 @@
+deploy:
+  type: git
+  repo: https://github.com/zhanglei11/macFile.github.io
+  branch: master
