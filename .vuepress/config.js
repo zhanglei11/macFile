@@ -32,7 +32,10 @@ module.exports = {
         icon: 'reco-message',
         items: [
           { text: 'es6', link: '/docs/es6/array' },
-          { text: 'JavaScript', link: '/docs/JavaScript/== _===' }
+          { text: 'JavaScript', link: '/docs/JavaScript/== _===' },
+          { text: 'vue', link: '/docs/vue/404' },
+          { text: 'vue3', link: '/docs/vue3/composition' },
+          { text: 'webpack', link: '/docs/webpack/build_process' }
         ]
       },
       {
@@ -97,6 +100,60 @@ module.exports = {
         'type_conversion',
         'typeof_instanceof',
         'visible'
+      ],
+      '/docs/vue/': [
+        '404',
+        'axios',
+        'axiosCode',
+        'bind',
+        'communication',
+        'components_plugin',
+        'cors',
+        'data_object_add_attrs',
+        'data',
+        'diff',
+        'directive',
+        'error',
+        'filter',
+        'first_page_time',
+        'if_for',
+        'keepalive',
+        'key',
+        'lifecycle',
+        'mixin',
+        'modifier',
+        'new_vue',
+        'nexttick',
+        'observable',
+        'permission',
+        'show_if',
+        'slot',
+        'spa',
+        'ssr',
+        'structure',
+        'vnode',
+        'vue',
+        'vue3_vue2'
+      ],
+      '/docs/vue3/': [
+        'composition',
+        'goal',
+        'modal_component',
+        'performance',
+        'proxy',
+        'treeshaking'
+      ],
+      '/docs/webpack/': [
+        'build_process',
+        'HMR',
+        'improve_build',
+        'Loader_Plugin',
+        'Loader',
+        'performance',
+        'Plugin',
+        'proxy',
+        'Rollup_Parcel_snowpack_Vite',
+        'webpack'
       ]
     },
     // type: 'blog',
