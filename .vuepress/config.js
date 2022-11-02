@@ -15,18 +15,6 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      // { text: 'Home', link: '/', icon: 'reco-home' },
-      // { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-      {
-        text: 'Docs',
-        icon: 'reco-message',
-        items: [{ text: 'vuepress-reco', link: '/docs/theme-reco/' }]
-      },
-      {
-        text: 'Docs11',
-        icon: 'reco-message',
-        link: '/docs/theme-reco11/'
-      },
       {
         text: '文档',
         icon: 'reco-message',
@@ -35,24 +23,24 @@ module.exports = {
           { text: 'JavaScript', link: '/docs/JavaScript/== _===' },
           { text: 'vue', link: '/docs/vue/404' },
           { text: 'vue3', link: '/docs/vue3/composition' },
-          { text: 'webpack', link: '/docs/webpack/build_process' }
+          { text: 'webpack', link: '/docs/webpack/build_process' },
+          { text: 'typescript', link: '/docs/typescript/class' },
+          { text: 'applet', link: '/docs/applet/applet' },
+          { text: 'design', link: '/docs/design/design' },
+          { text: 'css', link: '/docs/css/animation' },
+          { text: 'git', link: '/docs/git/command' },
+          { text: 'http', link: '/docs/http/1.0_1.1_2.0' },
+          { text: 'NodeJS', link: '/docs/NodeJS/Buffer' },
+          { text: 'React', link: '/docs/React/animation' }
         ]
       },
       {
-        text: 'Contact',
-        icon: 'reco-message',
-        items: [
-          {
-            text: 'GitHub',
-            link: 'https://github.com/recoluan',
-            icon: 'reco-github'
-          }
-        ]
+        text: 'GitHub',
+        icon: 'reco-github',
+        link: 'https://github.com/zhanglei11'
       }
     ],
     sidebar: {
-      '/docs/theme-reco/': ['', 'theme', 'plugin', 'api', 'theme22'],
-      '/docs/theme-reco11/': ['', 'theme', 'plugin', 'api', 'theme22'],
       '/docs/es6/': [
         'array',
         'decorator',
@@ -154,6 +142,137 @@ module.exports = {
         'proxy',
         'Rollup_Parcel_snowpack_Vite',
         'webpack'
+      ],
+      '/docs/typescript/': [
+        'class',
+        'data_type',
+        'decorator',
+        'enum',
+        'function',
+        'generic',
+        'high type',
+        'interface',
+        'namespace_module',
+        'react',
+        'typescript_javascript',
+        'vue'
+      ],
+      '/docs/applet/': [
+        'applet',
+        'lifecycle',
+        'login',
+        'navigate',
+        'optimization',
+        'publish',
+        'requestPayment',
+        'WebView_jscore'
+      ],
+      '/docs/design/': [
+        'design',
+        'Factory  Pattern',
+        'Observer  Pattern',
+        'Proxy Pattern',
+        'Singleton Pattern',
+        'Strategy Pattern'
+      ],
+      '/docs/css/': [
+        'animation',
+        'BFC',
+        'box',
+        'center',
+        'column_layout',
+        'css_performance',
+        'css3_features',
+        'dp_px_dpr_ppi',
+        'em_px_rem_vh_vw',
+        'flexbox',
+        'grid',
+        'hide_attributes',
+        'layout_painting',
+        'less_12px',
+        'responsive_layout',
+        'sass_less_stylus',
+        'selector',
+        'single_multi_line',
+        'triangle',
+        'visual_scrolling'
+      ],
+      '/docs/git/': [
+        'command',
+        'conflict',
+        'fork_clone_branch',
+        'git pull _git fetch',
+        'git rebase_ git merge',
+        'git reset_ git revert',
+        'git stash',
+        'Git',
+        'HEAD_tree_index',
+        'Version control'
+      ],
+      '/docs/http/': [
+        '1.0_1.1_2.0',
+        'after_url',
+        'CDN',
+        'DNS',
+        'GET_POST',
+        'handshakes_waves',
+        'headers',
+        'HTTP_HTTPS',
+        'HTTPS',
+        'OSI',
+        'status',
+        'TCP_IP',
+        'UDP_TCP',
+        'WebSocket'
+      ],
+      '/docs/NodeJS/': [
+        'Buffer',
+        'event_loop',
+        'EventEmitter',
+        'file_upload',
+        'fs',
+        'global',
+        'jwt',
+        'middleware',
+        'nodejs',
+        'paging',
+        'performance',
+        'process',
+        'require_order',
+        'Stream'
+      ],
+      '/docs/React/': [
+        'animation',
+        'Binding events',
+        'Building components',
+        'capture error',
+        'class_function component',
+        'communication',
+        'controlled_Uncontrolled',
+        'diff',
+        'High order components',
+        'how to use redux',
+        'import css',
+        'Improve performance',
+        'improve_render',
+        'JSX to DOM',
+        'key',
+        'life cycle',
+        'React Hooks',
+        'React refs',
+        'React Router model',
+        'React Router',
+        'React',
+        'Real DOM_Virtual DOM',
+        'Redux Middleware',
+        'redux',
+        'render',
+        'server side rendering',
+        'setState',
+        'state_props',
+        'summary',
+        'super()_super(props)',
+        'SyntheticEvent'
       ]
     },
     // type: 'blog',
