@@ -25,7 +25,15 @@ module.exports = {
       {
         text: 'Docs11',
         icon: 'reco-message',
-        items: [{ text: 'vuepress-reco', link: '/docs/theme-reco11/' }]
+        link: '/docs/theme-reco11/'
+      },
+      {
+        text: '文档',
+        icon: 'reco-message',
+        items: [
+          { text: 'es6', link: '/docs/es6/array' },
+          { text: 'JavaScript', link: '/docs/JavaScript/== _===' }
+        ]
       },
       {
         text: 'Contact',
@@ -41,7 +49,55 @@ module.exports = {
     ],
     sidebar: {
       '/docs/theme-reco/': ['', 'theme', 'plugin', 'api', 'theme22'],
-      '/docs/theme-reco11/': ['', 'theme', 'plugin', 'api', 'theme22']
+      '/docs/theme-reco11/': ['', 'theme', 'plugin', 'api', 'theme22'],
+      '/docs/es6/': [
+        'array',
+        'decorator',
+        'function',
+        'generator',
+        'module',
+        'object',
+        'promise',
+        'proxy',
+        'set_map',
+        'var_let_const'
+      ],
+      '/docs/JavaScript/': [
+        '== _===',
+        'ajax',
+        'array_api',
+        'bind_call_apply',
+        'BOM',
+        'closure',
+        'context_stack',
+        'continue_to_upload',
+        'copy',
+        'data_type',
+        'debounce_throttle',
+        'Dom',
+        'event_agent',
+        'event_loop',
+        'event_Model',
+        'function_cache',
+        'functional_programming',
+        'inherit',
+        'js_data_structure',
+        'loss_accuracy',
+        'memory_leak',
+        'new',
+        'prototype',
+        'pull_up_loading_pull_down_refresh',
+        'regexp',
+        'scope',
+        'security',
+        'single_sign',
+        'string_api',
+        'tail_recursion',
+        'this',
+        'type_conversion',
+        'typeof_instanceof',
+        'visible'
+      ]
     },
     // type: 'blog',
     // // 博客设置
